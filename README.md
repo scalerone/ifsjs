@@ -1,6 +1,7 @@
 # ifs
 
-pnpm+github actions+vitepress+vitest打造的一个实用的前端函数工具库，区别于 lodash 的全面， 更加专注于收集前端业务中遇到的一些需求功能函数
+pnpm+github actions+vitepress+vitest 打造的一个实用的前端函数工具库，区别于 lodash 的全面， 更加专注于收集前端业务中遇到的一些需求功能函数
+
 - Node.JS >= 16
 - PNPM v7
 

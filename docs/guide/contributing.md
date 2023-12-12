@@ -21,7 +21,6 @@ cd ifsjs && pnpm install
 - 先查阅[文档](https://scalerone.github.io/ifsjs/)是否有你所需要的`函数方法`；
 - 如果没有你想要的`函数方法`，你有两种方式：
   - 发起一个 [issues](https://github.com/scalerone/ifsjs/issues) 讨论，评审人评论`PR Welcome`表示该`idea`可行，然后你就可以 fork 代码开发了；
- 
 
 ## 3. 功能开发流程
 
