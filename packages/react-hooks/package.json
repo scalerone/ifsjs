@@ -1,5 +1,5 @@
 {
-  "name": "@vmejs/react-hooks",
+  "name": "@ifsjs/react-hooks",
   "version": "0.0.1-alpha.5",
   "description": "",
   "license": "MIT",
@@ -32,7 +32,7 @@
     "react": "^16.8.0 || ^17.0.0 || ^18.0.0"
   },
   "dependencies": {
-    "@vmejs/shared": "workspace:*"
+    "@ifsjs/shared": "workspace:*"
   },
   "devDependencies": {}
 }

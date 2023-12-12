@@ -9,7 +9,7 @@ category: LifeCycle
 ## 用法
 
 ```js
-import { useMap } from '@vmejs/react-hooks';
+import { useMap } from '@ifsjs/react-hooks';
 
 export default function () {
   const[map, {set, setAll, get, reset, remove}] = useMap<string|number, string>([

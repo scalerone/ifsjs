@@ -23,17 +23,17 @@ const DefaultSideBar = [
 const isDev = process.argv[process.argv.length - 1] === 'development';
 
 export default {
-  base: isDev ? '/' : '/vmejs/',
-  title: 'vmejs',
+  base: isDev ? '/' : '/ifsjs/',
+  title: 'ifsjs',
   lang: 'zh-CN',
   themeConfig: {
     logo: '/logo.png',
     lastUpdated: true,
     lastUpdatedText: '最后修改时间',
-    socialLinks: [{ icon: 'github', link: 'https://github.com/vmejs/vmejs' }],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/scalerone/ifsjs' }],
     // editLinks: true,
     // editLink: {
-    //   pattern: 'https://github.com/vmejs/vmejs/main/docs/:path',
+    //   pattern: 'https://github.com/scalerone/ifsjs/main/docs/:path',
     //   text: '为此页提供修改建议',
     // },
     nav: [

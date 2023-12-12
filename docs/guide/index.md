@@ -3,13 +3,13 @@
 ## 安装
 
 ```bash
-npm i @vmejs/core
+npm i @ifsjs/core
 ```
 
 ## 简单使用
 
 ```ts
-import { getDevice } from '@vmejs/core';
+import { getDevice } from '@ifsjs/core';
 
 const browser = getDevice();
 

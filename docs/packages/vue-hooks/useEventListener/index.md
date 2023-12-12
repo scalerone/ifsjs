@@ -9,7 +9,7 @@ category: Browser（浏览器）
 ## 用法
 
 ```js
-import { useEventListener } from '@ vmejs/core';
+import { useEventListener } from '@ ifsjs/core';
 
 useEventListener(document, 'visibilitychange', (evt) => {
   console.log(evt);

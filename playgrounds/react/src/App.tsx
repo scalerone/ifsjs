@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import { useMount } from '@vmejs/react-hooks'
+import { useMount } from '@ifsjs/react-hooks'
 
 function App() {
 

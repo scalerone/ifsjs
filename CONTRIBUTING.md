@@ -1,4 +1,4 @@
-# vmejs Contributing Guide
+# ifsjs Contributing Guide
 
 - Node.JS >= 16
 - PNPM v7
@@ -7,20 +7,20 @@
 
 ```
 # https
-git clone https://github.com/vmejs/vmejs.git
+git clone https://github.com/scalerone/ifsjs.git
 
 # ssh
-git clone git@github.com:vmejs/vmejs.git
+git clone git@github.com:scalerone/ifsjs.git
 
-# 进入 vmejs 目录
-cd vmejs && pnpm install
+# 进入 ifsjs 目录
+cd ifsjs && pnpm install
 ```
 
 ## 2. 贡献流程
 
-- 先查阅[文档](https://vmejs.github.io/vmejs/)是否有你所需要的`函数方法`；
+- 先查阅[文档](https://scalerone.github.io/ifsjs/)是否有你所需要的`函数方法`；
 - 如果没有你想要的`函数方法`，你有两种方式：
-  - 发起一个 [issues](https://github.com/vmejs/vmejs/issues) 讨论，评审人评论`PR Welcome`表示该`idea`可行，然后你就可以 fork 代码开发了；
+  - 发起一个 [issues](https://github.com/scalerone/ifsjs/issues) 讨论，评审人评论`PR Welcome`表示该`idea`可行，然后你就可以 fork 代码开发了；
   - 关闭当前页面，骂一顿这个作者：这是什么 laji 库；
 
 ## 3. 功能开发流程
@@ -38,16 +38,16 @@ cd vmejs && pnpm install
    # ssh
    git clone 你的fork项目 ssh 地址
 
-   # 进入 vmejs 目录
-   cd vmejs && pnpm install
+   # 进入 ifsjs 目录
+   cd ifsjs && pnpm install
 
    # 新建功能分支
    git checkout -b feature-getDevice
    ```
 
-3. 完成对应函数方法（例如：<https://github.com/vmejs/vmejs/blob/main/packages/core/getDevice/index.ts>）
-4. 完成对应的测试用例（例如：<https://github.com/vmejs/vmejs/blob/main/packages/core/getDevice/index.test.ts>）
-5. 完成对应的使用文档（例如：<https://github.com/vmejs/vmejs/blob/main/docs/packages/core/getDevice/index.md>）
+3. 完成对应函数方法（例如：<https://github.com/scalerone/ifsjs/blob/main/packages/core/getDevice/index.ts>）
+4. 完成对应的测试用例（例如：<https://github.com/scalerone/ifsjs/blob/main/packages/core/getDevice/index.test.ts>）
+5. 完成对应的使用文档（例如：<https://github.com/scalerone/ifsjs/blob/main/docs/packages/core/getDevice/index.md>）
 
 6. 你可以本地执行一些命令：
 

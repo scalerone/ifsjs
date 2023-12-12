@@ -10,8 +10,8 @@ export async function updateImport({ packages, functions }: PackageIndexes) {
       .sort()
       .map((name) => `export * from './${name}'`);
 
-    // 在 @vmejs/core 中自动导出 @vmejs/shared
-    name === 'core' && imports.push("export * from '@vmejs/shared'");
+    // 在 @ifsjs/core 中自动导出 @ifsjs/shared
+    name === 'core' && imports.push("export * from '@ifsjs/shared'");
 
     await fs.writeFile(join(dir, 'index.ts'), `${imports.join('\n')}\n`);
   }

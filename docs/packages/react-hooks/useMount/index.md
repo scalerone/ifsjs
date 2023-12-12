@@ -9,7 +9,7 @@ category: LifeCycle
 ## 用法
 
 ```js
-import { useMount } from '@vmejs/react-hooks';
+import { useMount } from '@ifsjs/react-hooks';
 
 const MyComponent = () => {
   useMount(() => {

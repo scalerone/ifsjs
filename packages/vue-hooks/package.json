@@ -1,5 +1,5 @@
 {
-  "name": "@vmejs/vue-hooks",
+  "name": "@ifsjs/vue-hooks",
   "version": "0.0.1-alpha.5",
   "description": "",
   "license": "MIT",
@@ -29,7 +29,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@vmejs/shared": "workspace:*",
+    "@ifsjs/shared": "workspace:*",
     "vue-demi": "*"
   }
 }

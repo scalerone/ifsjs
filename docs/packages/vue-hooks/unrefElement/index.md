@@ -16,7 +16,7 @@ Unref for dom element.
 
 <script setup>
   import { ref } from 'vue';
-  import { unrefElement } from '@vmejs/core';
+  import { unrefElement } from '@ifsjs/core';
 
   const div = ref(); // will be bind to the <div> element
   const hello = ref(); // will be bind to the HelloWorld Component

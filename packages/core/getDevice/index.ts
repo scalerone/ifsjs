@@ -1,4 +1,4 @@
-import { isString } from '@vmejs/shared';
+import { isString } from '@ifsjs/shared';
 
 export const DEVICES = [
   {

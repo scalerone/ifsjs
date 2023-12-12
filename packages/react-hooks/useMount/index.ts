@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { isFunction } from '@vmejs/shared';
+import { isFunction } from '@ifsjs/shared';
 
 const isDev = process.env.NODE_ENV === 'development' || process.env.NODE_ENV === 'test';
 

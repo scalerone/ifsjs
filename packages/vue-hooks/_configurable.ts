@@ -1,4 +1,4 @@
-import { isClient } from '@vmejs/shared';
+import { isClient } from '@ifsjs/shared';
 
 export interface ConfigurableWindow {
   /*

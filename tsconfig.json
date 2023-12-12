@@ -17,14 +17,14 @@
     "noUnusedLocals": true,
     "jsx": "react-jsx",
     "paths": {
-      "@vmejs/shared": ["./packages/shared/index.ts"],
-      "@vmejs/shared/*": ["./packages/shared/*"],
-      "@vmejs/core": ["./packages/core/index.ts"],
-      "@vmejs/core/*": ["./packages/core/*"],
-      "@vmejs/vue-hooks": ["./packages/vue-hooks/index.ts"],
-      "@vmejs/vue-hooks/*": ["./packages/vue-hooks/*"],
-      "@vmejs/react-hooks": ["./packages/react-hooks/index.ts"],
-      "@vmejs/react-hooks/*": ["./packages/react-hooks/*"]
+      "@ifsjs/shared": ["./packages/shared/index.ts"],
+      "@ifsjs/shared/*": ["./packages/shared/*"],
+      "@ifsjs/core": ["./packages/core/index.ts"],
+      "@ifsjs/core/*": ["./packages/core/*"],
+      "@ifsjs/vue-hooks": ["./packages/vue-hooks/index.ts"],
+      "@ifsjs/vue-hooks/*": ["./packages/vue-hooks/*"],
+      "@ifsjs/react-hooks": ["./packages/react-hooks/index.ts"],
+      "@ifsjs/react-hooks/*": ["./packages/react-hooks/*"]
     }
   },
   "include": [

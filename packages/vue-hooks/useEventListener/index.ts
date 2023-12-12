@@ -1,5 +1,5 @@
 import type { Arrayable, Fn, MaybeComputedRef } from '../types';
-import { isString, noop } from '@vmejs/shared';
+import { isString, noop } from '@ifsjs/shared';
 import { watch, getCurrentScope, onScopeDispose } from 'vue-demi';
 import type { MaybeElementRef } from '../unrefElement';
 import { unrefElement } from '../unrefElement';

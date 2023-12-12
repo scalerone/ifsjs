@@ -8,9 +8,9 @@ export default defineConfig({
 
   resolve: {
     alias: {
-      '@vmejs/core': resolve(__dirname, '../../packages/core/index.ts'),
-      '@vmejs/shared': resolve(__dirname, '../../packages/shared/index.ts'),
-      '@vmejs/react-hooks': resolve(__dirname, '../../packages/react-hooks/index.ts'),
+      '@ifsjs/core': resolve(__dirname, '../../packages/core/index.ts'),
+      '@ifsjs/shared': resolve(__dirname, '../../packages/shared/index.ts'),
+      '@ifsjs/react-hooks': resolve(__dirname, '../../packages/react-hooks/index.ts'),
     },
   },
 })
